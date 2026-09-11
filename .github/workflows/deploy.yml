@@ -9,7 +9,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permisions:
+    permissions:
       contents: write
     steps:
     - name: Checkout Source code
