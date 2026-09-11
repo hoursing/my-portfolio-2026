@@ -10,7 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     permisions:
-      content: write
+      contents: write
     steps:
     - name: Checkout Source code
       uses: actions/checkout@v4
